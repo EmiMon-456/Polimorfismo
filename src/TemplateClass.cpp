@@ -12,6 +12,3 @@ TemplateClass::~TemplateClass() {
 void TemplateClass::dotSomething() const {
     std::cout << "Hacer algo con el dato: " << data_ << std::endl;
 }
-
-#endif  // TEMPLATECLASS_H
-
