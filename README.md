@@ -35,8 +35,8 @@ classDiagram
     IMatrix <|-- MatrixOp
 
     %% Relaciones de uso (punteros a función y miembro)
-    MatrixOp --> OpFunc : usa
-    MatrixOp --> void_member_pointer : usa
+    MatrixOp --> OpFunc
+    MatrixOp --> void_member_pointer
 
     class OpFunc {
         +double (*)(double, double)
