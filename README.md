@@ -11,6 +11,7 @@ classDiagram
     }
 
     class MatrixOp {
+        <<abstract>>
         - int rows_
         - int cols_
         - double* data_
